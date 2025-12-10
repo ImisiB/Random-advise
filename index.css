@@ -1,0 +1,24 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  background-color: aqua;
+}
+button{
+  cursor: pointer;
+  padding: 9px;
+  font-family: cursive;
+  border: solid rgb(233, 225, 225) 1px;
+  border-radius: 20px;
+  background-color: rgb(233, 208, 208);
+}
+button:hover{
+  transition-duration: 1s;
+  background-color: black;
+  color: white;
+}
